@@ -7,27 +7,28 @@
     </title>
     <style>
       body {
-        background-color: #b8d0e4;
-        margin: 0; 
-        padding: 0;
+        background-color: #EDF2F3;
+        margin: 0px; 
+        padding: 0px;
       }
       h1 {
-        background-color: #d7faa2;
+        background-color: #AFD8F2;
         color: #000000;
+        margin: 0px;
       }
       p {
-        background-color: #1c87c9;
+        
         color: #000000;
       }
       .content {
-        max-width: 500px;
+        padding: 0px;
         margin: auto;
       }
 
  /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #1F3541;
   font-family: Arial;
 }
 
@@ -61,7 +62,7 @@
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #5289B5;
 }
 
 /* Dropdown content (hidden by default) */
@@ -86,7 +87,7 @@
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #AFD8F2;
 }
 
 /* Show the dropdown menu on hover */
@@ -94,39 +95,54 @@
   display: block;
 } 
 
-header { overflow: hidden; paddin:0px 0px}
+header { overflow: hidden; padding:0px 0px}
+
+
 
     </style>
 
 <div class="content">
 
-    <h1> <img src="./images/logo.png" width=7%> Kevin McCoy's Personal Website</h1>
+
+    <h1 > <img src="./images/logo.png" width=50px> Kevin McCoy</h1>
 
 
 
-<div class="header">
-  <a href="#default" class="logo">CompanyLogo</a>
-  <div class="header-right">
-    <a class="active" href="#home">Home</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+
+<div class="navbar">
+
+  <a href="index.html">Home</a>
+  <a href="blog.html">Blog</a>
+  <a href="cv_resume.html">CV</a>
+  <a href="publications.html">Publications</a>
+  <div class="dropdown">
+    <button class="dropbtn">Fun
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="game_reviews.html">Game Reviews</a>
+
+    </div>
+
   </div>
-</div
+<a href="contact.html">Contact</a>
+</div> 
 
 
 
     
   </head>
   <body style="margin:0px">
-    <p>
+
+<p>
       Email: kevinmccoy678@gmail.com<br>
       Email: kmccoy8@gatech.edu<br>
       Phone Number: (203) 939 - 2080
     </p>
-    <a href="https://www.linkedin.com/in/kmccoy3/" target="_blank" rel="noreferrer noopener"> 
+    <a href="https://www.linkedin.com/in/kmccoy3/" target="_blank" rel="noreferrer noopener" text-decoration=none> 
       <img src="./images/linkedin.png" width=10%>
     </a>
-    <a href="https://github.com/kmccoy3" target="_blank" rel="noreferrer noopener">
+    <a href="https://github.com/kmccoy3" target="_blank" rel="noreferrer noopener" text-decoration=none>
       <img src="./images/github.png" width=10%>
     </a>
     <a href="https://twitter.com/kevin_mccoy3" target="_blank" rel="noreferrer noopener">
@@ -135,6 +151,8 @@ header { overflow: hidden; paddin:0px 0px}
     <a href="https://orcid.org/0000-0002-3570-6826" target="_blank" rel="noreferrer noopener">
       <img src="./images/orcid.png" width=10%>
     </a>
+
+
 
   </body>
 </div>
