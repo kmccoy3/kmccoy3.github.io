@@ -2,18 +2,25 @@
         background-color: #EDF2F3;
         margin: 0px;
         padding: 0px;
+
       }
 
       h1 {
 
         color: #000000;
   padding-left: 20px;
+font-family: Arial;
 
       }
 
-      p {
 
+
+      p {
+  padding-left: 20px;
+padding-right: 60px;
         color: #000000;
+font-size: 18px;
+font-family: Arial;
       }
 
       .content {
@@ -122,6 +129,13 @@
   padding-top: 5px;
 }
 
+
+.container3 {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+
 img {
   max-width: 100%
 }
@@ -140,7 +154,7 @@ img {
 
 footer {
     background-color: orange;
-    position: absolute;
+    position: bottom;
     left: 0;
     bottom: 0;
     height: 100px;
@@ -151,3 +165,22 @@ footer {
 a {
  text-decoration: none;
 }
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+.button1 {background-color: #e63523; border-radius: 8px;} 
+.button2 {background-color: #008CBA; border-radius: 8px;}
+
+.block-left { float: left; }
+.block-right { float: right; }
