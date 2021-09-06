@@ -107,15 +107,13 @@ font-family: Arial;
       }
 
       .footer {
-        position: fixed;
+        position: absolute;
         bottom: 0;
         left: 0;
         width: 100%;
         height: 90px;
         background-color: #D0DAEE;
       }
-
-
 
 
 .container {
@@ -182,7 +180,54 @@ a {
 .button1 {background-color: #e63523; border-radius: 8px;} 
 .button2 {background-color: #008CBA; border-radius: 8px;}
 
+/*
+.buttonStyle:hover { background: #383; }
+
+
+      .button a:hover,
+      .button1 {
+        background-color: #383;
+      }
+*/
+
+
+   .button1:hover {
+
+     background: #c61503;
+     color: white !important;
+
+    }
+
+   .button2:hover {
+
+     background: #006C9A;
+     color: white !important;
+
+    }
+
+
+
 .block-left { float: left; }
 .block-right { float: right;   display: flex;
   align-items: right;
   justify-content: right;}
+
+
+
+ .card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+ width: 300px;
+padding: 20px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container4 {
+  padding: 2px 16px;
+}
