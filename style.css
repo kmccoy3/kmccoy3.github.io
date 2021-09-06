@@ -183,4 +183,6 @@ a {
 .button2 {background-color: #008CBA; border-radius: 8px;}
 
 .block-left { float: left; }
-.block-right { float: right; }
+.block-right { float: right;   display: flex;
+  align-items: right;
+  justify-content: right;}
