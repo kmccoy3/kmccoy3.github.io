@@ -2,7 +2,7 @@
         background-color: #EDF2F3;
         margin: 0 0 100px;
         padding: 0px;
-bottom: "90px";
+bottom: 100px;
       }
 
 html {
@@ -24,6 +24,16 @@ font-family: Tahoma;
 font-family: Tahoma;
 
       }
+
+footer {
+    background-color: orange;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
 
      h4 {
 
@@ -169,15 +179,7 @@ img {
 }
 
 
-footer {
-    background-color: orange;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
-    overflow: hidden;
-}
+
 
 a {
  text-decoration: none;
