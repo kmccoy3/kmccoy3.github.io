@@ -9,18 +9,31 @@
 
         color: #000000;
   padding-left: 20px;
-font-family: Arial;
+font-family: Tahoma;
+
+      }
+     title {
+
+        color: #000000;
+  padding-left: 20px;
+font-family: Tahoma;
 
       }
 
+     h4 {
 
+        color: #000000;
+  padding-left: 20px;
+font-family: Tahoma;
+
+      }
 
       p {
   padding-left: 20px;
 padding-right: 60px;
         color: #000000;
 font-size: 18px;
-font-family: Arial;
+font-family: Tahoma;
       }
 
       .content {
@@ -32,7 +45,7 @@ font-family: Arial;
       .navbar {
         overflow: hidden;
         background-color: #1F3541;
-        font-family: Arial;
+        font-family: Tahoma;
       }
 
       /* Links inside the navbar */
