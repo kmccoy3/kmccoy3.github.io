@@ -231,3 +231,10 @@ padding: 20px;
 .container4 {
   padding: 2px 16px;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
