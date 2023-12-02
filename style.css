@@ -1,8 +1,11 @@
-      body {
-        background-color: #EDF2F3;
-        margin: 0 0 100px;
+
+
+
+body {
+        background-color: #FCF5ED;
+        margin-bottom: 100px;
         padding: 0px;
-bottom: 100px;
+bottom: 200px;
       }
 
 html {
@@ -11,22 +14,67 @@ min-height: 100%
 }
 
       h1 {
-
+          background-color: #CE5A67;
         color: #000000;
-  padding-left: 20px;
-font-family: Tahoma;
 
+font-family: Palatino;
+font-size: 36px;
+margin:0;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom:10px;
+padding-top:10px;
       }
+
+      h2 {
+        background-color: #FCF5ED;
+      color: #000000;
+
+font-family: Palatino;
+font-size: 32px;
+margin:0;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom:10px;
+padding-top:10px;
+    }
+
+    h3 {
+      background-color: #FCF5ED;
+    color: #000000;
+
+font-family: Palatino;
+font-size: 24px;
+margin:0;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom:10px;
+padding-top:0;
+  }
+
+  h4 {
+    background-color: #FCF5ED;
+  color: #000000;
+font-family: Palatino;
+font-size: 18px;
+margin:0;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom:0;
+padding-top:0;
+}
+
+      
      title {
 
         color: #000000;
   padding-left: 20px;
-font-family: Tahoma;
+font-family: Palatino;
 
       }
 
 footer {
-    background-color: orange;
+    background-color: #F4BF96;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -35,20 +83,13 @@ footer {
     overflow: hidden;
 }
 
-     h4 {
-
-        color: #000000;
-  padding-left: 20px;
-font-family: Tahoma;
-
-      }
 
       p {
   padding-left: 20px;
 padding-right: 60px;
         color: #000000;
-font-size: 18px;
-font-family: Tahoma;
+font-size: 16px;
+font-family: Palatino;
       }
 
       .content {
@@ -59,15 +100,15 @@ font-family: Tahoma;
       /* Navbar container */
       .navbar {
         overflow: hidden;
-        background-color: #1F3541;
-        font-family: Tahoma;
+        background-color: #F4BF96;
+        font-family: Palatino;
       }
 
       /* Links inside the navbar */
       .navbar a {
         float: left;
         font-size: 16px;
-        color: white;
+        color: #000000;
         text-align: center;
         padding: 14px 14px;
         text-decoration: none;
@@ -84,7 +125,7 @@ font-family: Tahoma;
         font-size: 16px;
         border: none;
         outline: none;
-        color: white;
+        color: black;
         padding: 14px 16px;
         background-color: inherit;
         font-family: inherit;
@@ -96,14 +137,14 @@ font-family: Tahoma;
       /* Add a red background color to navbar links on hover */
       .navbar a:hover,
       .dropdown:hover .dropbtn {
-        background-color: #5289B5;
+        background-color: #EA906C;
       }
 
       /* Dropdown content (hidden by default) */
       .dropdown-content {
         display: none;
         position: absolute;
-        background-color: #f9f9f9;
+        background-color: #F4BF96;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         z-index: 1;
@@ -121,7 +162,7 @@ font-family: Tahoma;
 
       /* Add a grey background color to dropdown links on hover */
       .dropdown-content a:hover {
-        background-color: #AFD8F2;
+        background-color: #EA906C;
       }
 
       /* Show the dropdown menu on hover */
@@ -134,15 +175,7 @@ font-family: Tahoma;
         padding: 0px 0px
       }
 
-      .footer {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 90px;
-        background-color: #D0DAEE;
-overflow: hidden;
-      }
+
 
 
 .container {
@@ -199,7 +232,7 @@ a {
 }
 
 .button1 {background-color: #e63523; border-radius: 8px;} 
-.button2 {background-color: #008CBA; border-radius: 8px;}
+/* .button2 {background-color: #008CBA; border-radius: 8px;} */
 
 /*
 .buttonStyle:hover { background: #383; }
@@ -221,7 +254,7 @@ a {
 
    .button2:hover {
 
-     background: #006C9A;
+     background: #F4BF96;
      color: white !important;
 
     }
