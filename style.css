@@ -232,29 +232,22 @@ a {
 }
 
 .button1 {background-color: #e63523; border-radius: 8px;} 
-/* .button2 {background-color: #008CBA; border-radius: 8px;} */
-
-/*
-.buttonStyle:hover { background: #383; }
+.button2 {background-color: #008CBA; border-radius: 8px;}
 
 
-      .button a:hover,
-      .button1 {
-        background-color: #383;
-      }
-*/
+
 
 
    .button1:hover {
 
-     background: #c61503;
+     background: #EA906C;
      color: white !important;
 
     }
 
    .button2:hover {
 
-     background: #F4BF96;
+     background: #EA906C;
      color: white !important;
 
     }
