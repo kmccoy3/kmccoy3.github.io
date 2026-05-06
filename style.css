@@ -285,3 +285,124 @@ padding: 20px;
   margin-right: auto;
   width: 50%;
 }
+
+
+
+
+.projects-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px; /* Slightly more space between taller cards */
+      margin-top: 20px;
+      width: 100%;
+    }
+
+    .project-card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+width: calc(50% - 12.5px);
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+      transition: transform 0.2s, box-shadow 0.2s;
+      background-color: #fafafa;
+      box-sizing: border-box;
+      overflow: hidden; /* Important: keeps image corners rounded */
+      
+      /* Updated to vertical stack */
+      display: flex;
+      flex-direction: column; 
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px); /* Increased lift slightly */
+      box-shadow: 6px 6px 15px rgba(0,0,0,0.1);
+      border-color: #CE5A67;
+    }
+
+/* UPDATED: The image container now sits at the bottom */
+.project-image-container {
+      width: 100%;
+      height: auto; /* Hugs the image tightly */
+      border-top: 1px solid #ddd;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: auto; 
+      background-color: #fafafa; /* Matches your card background */
+    }
+
+    .project-image {
+      width: 100%; /* Stretches edge-to-edge by default */
+      max-height: 350px; /* The safety limit! Adjust this number to your liking */
+      height: auto; 
+      object-fit: contain; /* Prevents squishing if the image hits the 250px ceiling */
+      display: block; /* Removes the tiny default gap underneath images */
+    }
+
+    /* Keep this if you still want R Hex Stickers; they are special cases */
+    .project-image.hex {
+      object-fit: contain; /* Prevents hex from being cropped */
+      padding: 15px; /* Adds space around the hex */
+    }
+
+    /* The text section below the image */
+    .project-content {
+      padding: 20px; /* Text padding now happens here, not in the main card */
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .project-title {
+      font-size: 1.25em; /* Slightly larger */
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+    .project-title a {
+      text-decoration: none;
+      color: black;
+    }
+    .project-title a:hover {
+      color: #CE5A67;
+    }
+    .project-desc {
+      font-family: Palatino, serif;
+      font-size: 0.95em;
+      color: #333;
+      margin-bottom: 15px;
+      line-height: 1.5;
+      flex-grow: 1; /* Pushes tags to the bottom */
+    }
+    .project-tags {
+      font-family: Palatino, serif;
+      font-size: 0.85em;
+      color: #CE5A67;
+      font-weight: bold;
+    }
+
+    /* NEW: A wrapper that holds the text and the hex sticker side-by-side */
+    .project-top-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-grow: 1; /* Pushes the large image container to the very bottom */
+    }
+
+    /* Adjusts the padding of the text so it sits nicely next to the sticker */
+    .project-top-row .project-content {
+      padding: 20px;
+      padding-right: 15px; 
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Adds margins to the hex sticker so it perfectly aligns with the top right corner */
+    .project-top-row .hex-sticker {
+      width: 90px;
+      height: auto;
+      flex-shrink: 0;
+      filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.1));
+      margin-top: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
